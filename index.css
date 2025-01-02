@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+ 
+    margin-left: 10px;
+    padding: auto;
+    background-image: url('secondmain.png');
+    background-size: cover;                    /* Make sure the image covers the entire body */
+    background-position: center;               /* Center the background image */
+    background-attachment: fixed;              /* Make the background fixed during scroll */
+    height: 100vh;   
+}
+
+
+
+/* heading of project*/
+ h1{
+    color: #FFD700;
+    text-align: center;
+    font-size: 4rem; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); 
+    margin: 0;
+ }
+  
+
+header ul{
+   display: flex;
+justify-content: center;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 12px;
+}
+
+a:hover{
+   /* color: #007BFF; */
+   color: #FFD700;
+  }
+   a{
+    color: #0056b3;
+   }
+  
+#home{
+    color: #FFD700;
+   
+}
+details p{
+    color: #FFD700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); 
+}
+
+/* login container style*/
+.login-container{
+    display: flex;
+    justify-content: center;
+    color: #FFD700;
+}
+form { 
+    margin-top: 10px;
+    height: 400px;
+    width: 250px;
+    background-color: #2d3e50;
+    border: 2px solid black;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); 
+
+}
+
+form input{
+    width: 200px;
+}
+ 
+input:hover{
+    transform: scale(1.1); 
+}
+
+label{
+    color:white ;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 1rem;
+    border:2px solid black;
+    margin-top: 20px;
+    background-color: #3498db;
+}
+button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+    transform: scale(1.1);  /* Slightly enlarge the button */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);  /* Add shadow effect */
+}
+
+/* Optional active state for when the button is clicked */
+button:active {
+    transform: scale(1);  /* Reset the scale when clicked */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);  /* Lighter shadow when active */
+}
+

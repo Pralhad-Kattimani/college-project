@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption FAQ</title>
+   <link rel="stylesheet" href="fqas.css">
+</head>
+<body>
+    <header>
+        <h1> welcome to Pk adoption home</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pr.html">Child Profiles</a></li>
+                <li><a href="adoptionprocess.html">Adoption Process</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+    <h1>Adoption FAQ</h1>
+    </div>
+
+
+<section>
+    <h2>Frequently Asked Questions</h2>
+
+    <form id="faqForm" action="#">
+      <label for="motivation" >What is your motivation for adopting a child?</label>
+        <input type="text"   id="motivation" name="motivation" placeholder="please enter here your motivation..." required>
+        <br>
+        
+        <label for="type-adoption" >What type of adoption are you interested in?(Domestic, International, Foster Care, etc.)</label>
+        <input type="text"    id="type-adoption" name="type-adoption" placeholder="e.g., Domestic, International" required>
+        <br>
+         
+        <label for="age-range" >What age range are you open to for adoption?</label>
+        <input type="text" id="age-range" name="age-range" placeholder="Please specify the age range you are open to adopting (e.g., Newborn, Toddler, Child, Teenager)." required>
+        <br>
+    
+        <label for="gender-preference" >Do you have any preferences regarding the child's gender?</label>
+        <input type="text" id="gender-preference" name="gender-preference" placeholder="Please specify if you have a gender preference (e.g., Male, Female, or no preference)." required>
+        <br>
+
+        <label for="special-needs">Are you open to adopting a child with special needs?</label>
+        <select id="special-needs" name="special-needs" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Maybe">Maybe</option>
+        </select>
+        <br>
+
+        <label for="experience">Do you have experience raising children or working with children?</label>
+        <textarea id="experience" name="experience" placeholder= "Please describe your experience in raising children or working with children." ></textarea>
+
+        <label for="plan">How do you plan to support the child's cultural and ethnic background (especially in international adoptions)?</label>
+        <textarea id ="international-adoption" name="international" placeholder="Please describe how you would support and honor the child's cultural or ethnic background."></textarea>
+      <br>
+
+     <label for="livinng-enviorment" >What kind of living environment do you offer for a child?</label>
+     <textarea id="livinng-enviorment" name="livinng-enviorment" placeholder="Describe your home environment, including where the child would live and how you would care for them."></textarea>
+     <br>
+
+     <label for="expections to the agency">What are your expectations from the adoption agency during the process?</label>
+     <textarea id="expectations" name="agency-assit" placeholder= "Please describe what you expect from the adoption agency throughout the adoption process."></textarea>
+     <br>
+
+
+     <label for="other child">Do you have any other children? If so, how do you think they will react to the new addition to the family?</label>
+      <textarea id="other child" name="already-child" placeholder="Please share details about your other children and how you think they will adjust to having an adopted sibling"></textarea>
+      </textarea>
+
+
+      <button type="submit">Submit Your Answers</button>
+    </form>
+</section>
+<script>
+    let result = document.getElementById("faqForm");
+  result.addEventListener('submit',function(evt){
+        alert("thank you for submiting answer");
+    });
+
+console.log(result)
+</script>
+
+</body>
+</html>

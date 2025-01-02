@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+ 
+    margin-left: 10px;
+    padding: auto;
+  ;
+  background-color: #FFEBEE;
+    background-size: cover;                    /* Make sure the image covers the entire body */
+    background-position: center;               /* Center the background image */
+    background-attachment: fixed;              /* Make the background fixed during scroll */
+    height: 100vh;   
+  
+}
+
+/* heading of project*/
+ h1{
+  text-align: center;
+}
+
+header ul{
+    display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-top: 12px;
+ }
+ 
+
+/* profile container */
+.profile-container{
+    display: flex;
+    margin-top: 10px;
+ justify-content: space-evenly;
+}
+ .profile-container h2{
+   color: #2d3e50;
+ }
+
+
+ .profile-containe p{
+  color: #555;
+ }
+/* achoncor  tag styling*/ 
+a{
+  color: #007BFF;
+}
+ a:hover{
+  color: #0056b3;
+ }
+
+ /* frist container */
+.container{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+  background-color:#FFEBEE;
+}
+ 
+.container h2{
+  text-decoration: underline;
+}
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+
+/* conatiner2 */
+.container2{
+    display: block;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+.container2 h2{
+  text-decoration: underline;
+}
+/* container3 */
+.container3{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+  }
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+
+.container3 h2{
+  text-decoration: underline;
+}
+/* container 4*/
+.container4{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+
+.container4 h2{
+  text-decoration: underline;
+}
+
+  /* profile container 2*/
+  .profile-container2{
+    display: flex;
+    margin-top: 10px;
+ justify-content: space-evenly;
+}
+
+.profile-container2 h2{
+  color: #2d3e50;
+}
+
+
+.profile-containe p{
+ color: #555;
+}
+
+/* conatiner 5*/
+.container5{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+
+.container5 h2{
+  text-decoration: underline;
+}
+
+/* container 6 */
+.container6{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}  
+   
+.container6 h2{
+  text-decoration: underline;
+}
+
+
+/* container 7 */
+.container7{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+.container7 h2{
+  text-decoration: underline;
+}
+
+ /* conatiner 8 */
+.container8{
+    display: flex;
+    height: 835px;
+    width: 330px;
+  text-align: center ;
+    border: 2px solid black;
+    justify-content: center;
+    background-color:#FFEBEE;
+}
+
+ul img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    color: #4e3c34 ;
+    border: 1px solid black;
+}
+
+.container8 h2{
+  text-decoration: underline;
+}
+
+/* profile 3 containers*/
+.profile-container3{
+  display: flex;
+  margin-top: 10px;
+justify-content: space-evenly;
+}
+
+.profile-container3 h2{
+  color: #2d3e50;
+}
+
+
+.profile-containe p{
+ color: #555;
+}
+/* conatainer 9*/
+.container9{
+  display: flex;
+  height: 835px;
+  width: 330px;
+text-align: center ;
+  border: 2px solid black;
+  justify-content: center;
+  background-color:#FFEBEE;
+}
+
+ul img{
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 10px;
+  color: #4e3c34 ;
+  border: 1px solid black;
+}
+
+.container9 h2{
+  text-decoration: underline;
+}
+
+/* conatiner10 */
+.container10{
+  display: block;
+  height: 835px;
+  width: 330px;
+text-align: center ;
+  border: 2px solid black;
+  justify-content: center;
+  background-color:#FFEBEE;
+}
+
+ul img{
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 10px;
+  color: #4e3c34 ;
+  border: 1px solid black;
+}
+
+
+.container10 h2{
+  text-decoration: underline;
+}
+
+
+/* container11*/
+.container11{
+  display: flex;
+  height: 835px;
+  width: 330px;
+text-align: center ;
+  border: 2px solid black;
+  justify-content: center;
+  background-color:#FFEBEE;
+}
+
+ul img{
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 10px;
+  color: #4e3c34 ;
+  border: 1px solid black;
+}
+
+.container11 h2{
+  text-decoration: underline;
+}
+/* container 12*/
+.container12{
+  display: flex;
+  height: 835px;
+  width: 330px;
+text-align: center ;
+  border: 2px solid black;
+  justify-content: center;
+  background-color:#FFEBEE;
+}
+
+ul img{
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 10px;
+  color: #4e3c34 ;
+  border: 1px solid black;
+}
+
+.container12 h2{
+  text-decoration: underline;
+}

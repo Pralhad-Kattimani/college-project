@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2d3e50;
+    color: white;
+}
+header ul{
+    display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-top: 12px;
+ }
+ 
+ a:hover{
+    /* color: #007BFF; */
+    color: #FFD700;
+   }
+    a{
+     color: #0056b3;
+    }
+
+    
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Steps Section */
+#steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.step {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+}
+
+.step h2 {
+    font-size: 1.8em;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
